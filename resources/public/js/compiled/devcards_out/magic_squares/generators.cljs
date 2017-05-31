@@ -74,3 +74,39 @@
               (many-diags nodes (/ diag-count 2))
               ))
               )))
+
+
+(defn sums-of-subsets
+  [hypergraph assignment-vector]
+  (reduce-kv
+    (fn [scores which items]
+      (assoc scores which
+        (apply + (map assignment-vector (which hypergraph)))
+        ))
+    {}
+    hypergraph
+    ))
+
+
+(defn target-sum
+  [hypergraph assignment-vector]
+  (/
+    (apply + (vals (sums-of-subsets hypergraph assignment-vector)))
+    (count hypergraph)))
+
+
+(defn abs
+  [n]
+  (max n (- n)))
+
+
+(defn subset-errors
+  [hypergraph assignment-vector]
+  (let [target (target-sum hypergraph assignment-vector)
+        sums (sums-of-subsets hypergraph assignment-vector)
+        howmany (count hypergraph)]
+    (reduce-kv
+      (fn [scores subset sum] (assoc scores subset (abs (- target sum))))
+      {}
+      sums)
+      ))

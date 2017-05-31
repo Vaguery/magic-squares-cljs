@@ -92,7 +92,71 @@
              :d7 #{3 4 9 14} :d8 #{2 5 8 15}})
             ))))
 
+(defcard scoring-card
+  (sab/html [:div
+              [:h1 "Just how magic is that square?"]
+              ]))
 
+(deftest subset-totals-of-assignment
+  (testing "given a hypergraph and an assignment, return individual sums per subset"
+    (is (= (gen/sums-of-subsets
+              (gen/magic-square 3 2)
+              (into [] (range 1 10)))
+           {:r1 6, :r2 15, :r3 24, :c1 12, :c2 15, :c3 18, :d1 15, :d2 15}
+           ))
+    (is (= (count (gen/sums-of-subsets
+              (gen/magic-square 17 34)
+              (into [] (shuffle (range 1 (inc (* 17 17)))))))
+            68
+            ))))
+
+(deftest target-sum-of-assignment
+  (testing "given a hypergraph and assignment, return the average of the subset sums"
+    (is (= (gen/target-sum
+              (gen/magic-square 3 2)
+              (into [] (range 1 10)))
+           (/ (apply +
+             (vals (gen/sums-of-subsets
+             (gen/magic-square 3 2)
+             (into [] (range 1 10)))))
+             (count (gen/magic-square 3 2)))
+           ))
+   (is (= (gen/target-sum
+             (gen/magic-square 54 108)
+             (into [] (range 1 (inc (* 54 54)))))
+          (/ (apply +
+            (vals (gen/sums-of-subsets
+            (gen/magic-square 54 108)
+            (into [] (range 1 (inc (* 54 54)))))))
+            (count (gen/magic-square 54 108)))
+          ))
+    )
+  (testing "this works for arbitrary assignments"
+    (is (= (gen/target-sum
+              {:l1 #{0 1 2} :l2 #{0 2 4}}
+              [-3 8 3 99 72])
+            40 ; ((-3 + 8 + 3) + (-3 + 3 + 72))/2
+           ))
+    )
+  )
+
+
+(deftest subset-errors
+  (testing "given a hypergraph and assignment, return the hash of errors for each subset"
+    (is (= (gen/subset-errors
+              (gen/magic-square 3 2)
+              (into [] (range 1 10)))
+           {:r1 9, :r2 0, :r3 9, :c1 3, :c2 0, :c3 3, :d1 0, :d2 0}
+           ))
+    (is (= (gen/subset-errors
+              (gen/magic-square 3 2)
+              [8 16 24 -8 -72 32 16 0 -88])
+              {:r1 89, :r2 7, :r3 31, :c1 57, :c2 15, :c3 9, :d1 111, :d2 9}
+           ))
+  ))
+
+
+  
 
 (defn main []
   ;; conditionally start the app based on whether the #main-app-area
