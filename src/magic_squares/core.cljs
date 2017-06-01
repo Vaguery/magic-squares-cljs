@@ -160,21 +160,26 @@
   (update-in nums [i] #(+ % diff))
   )
 
+
 (defn random-swap
-  [assignment]
-  (let [[i j] (take 2 (shuffle (range (count assignment))))
-        n1 (nth assignment i)
-        n2 (nth assignment j)]
-    (-> assignment
-      (assoc , i n2)
-      (assoc , j n1))
-  ))
+  [assignment howmany]
+  (let [keys (take howmany (shuffle (range (count assignment))))
+        rotated-keys (concat (drop 1 keys) (take 1 keys))]
+    (reduce
+      #(assoc %1 (nth rotated-keys %2) (nth assignment (nth keys %2)))
+      assignment
+      (range howmany))
+      ))
+
+(println (random-swap [1 2 3 4 5] 2))
+
 
 (deftest random
   (testing "some data on random assignment scores for small squares"
     (let [assignment (into [] (shuffle (range 1 26)))
           five-square (gen/magic-square 5 10)
-          thirteen (gen/magic-square 13 26)]
+          nine-square (gen/magic-square 9 18)
+          twenty-three (gen/semimagic-square 23)]
       (is (= (vals (gen/subset-errors five-square assignment))
             99
             ))
@@ -187,22 +192,23 @@
 
 
       (is (=
-        (loop [best [(shuffle (range 1 (inc (* 13 13))))]
+        (loop [best [(shuffle (range 1 (inc (* 9 9))))]
                counter 1]
-          (println (str counter ":" (last best)))
-          (println (into [] (map #(gen/total-error thirteen %) best)))
+          (println (str counter ","
+                    (last best) ","
+                    (map #(gen/total-error nine-square %) best)))
           (if (or
-                (zero? (gen/total-error thirteen (last best)))
-                (> counter 500))
+                (zero? (gen/total-error nine-square (last best)))
+                (> counter 10000))
             (do (println (last best))
               99); best
             (let [variations (concat
-                  best
-                  (repeatedly 20 #(random-swap (last best)))
-                  (repeatedly 5 #(shuffle (last best))))]
+                  (repeatedly 140 #(random-swap (last best) (+ 2 (rand-int 3))))
+                  ; best
+                  (repeatedly 10 #(shuffle (last best))))]
               ; (println variations)
               (recur [(first
-                        (sort-by #(gen/total-error thirteen %) variations))]
+                        (sort-by #(gen/total-error nine-square %) variations))]
                      (inc counter)))))
         99
         ))
@@ -216,7 +222,11 @@
 
   First off, there are apparently many `target-sum` values that are non-integer. This seems like will cause troubles with infeasible assignments.
 
-  Then there's the question of what to do to keep assignments with unique values."
+  Then there's the question of what to do to keep assignments with unique values.
+
+  ```
+  [12 9 25 18 1 23 16 2 14 10 4 15 8 21 17 6 22 19 5 13 20 3 11 7 24]
+  ```"
   ))
 
 

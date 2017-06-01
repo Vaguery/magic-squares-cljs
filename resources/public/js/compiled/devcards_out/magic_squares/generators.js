@@ -24,8 +24,8 @@ return cljs.core.conj.call(null,diag,cljs.core.last.call(null,magic_squares.gene
 }),cljs.core.PersistentHashSet.EMPTY,matrix)],null));
 });
 magic_squares.generators.many_diags = (function magic_squares$generators$many_diags(matrix,howmany){
-return cljs.core.reduce.call(null,(function (p1__34409_SHARP_,p2__34410_SHARP_){
-return cljs.core.into.call(null,p1__34409_SHARP_,magic_squares.generators.diags_of_matrix.call(null,matrix,p2__34410_SHARP_));
+return cljs.core.reduce.call(null,(function (p1__27612_SHARP_,p2__27613_SHARP_){
+return cljs.core.into.call(null,p1__27612_SHARP_,magic_squares.generators.diags_of_matrix.call(null,matrix,p2__27613_SHARP_));
 }),cljs.core.PersistentVector.EMPTY,cljs.core.range.call(null,howmany));
 });
 magic_squares.generators.semimagic_square = (function magic_squares$generators$semimagic_square(side){
@@ -35,8 +35,8 @@ return cljs.core.merge.call(null,magic_squares.generators.rows_of_matrix.call(nu
 magic_squares.generators.magic_square = (function magic_squares$generators$magic_square(side,diag_count){
 var nodes = magic_squares.generators.fill_square.call(null,side);
 var diag_labels = cljs.core.map.call(null,((function (nodes){
-return (function (p1__34411_SHARP_){
-return cljs.core.keyword.call(null,[cljs.core.str.cljs$core$IFn$_invoke$arity$1("d"),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__34411_SHARP_)].join(''));
+return (function (p1__27614_SHARP_){
+return cljs.core.keyword.call(null,[cljs.core.str.cljs$core$IFn$_invoke$arity$1("d"),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__27614_SHARP_)].join(''));
 });})(nodes))
 ,cljs.core.range.call(null,(1),(diag_count + (1))));
 return cljs.core.merge.call(null,magic_squares.generators.semimagic_square.call(null,side),cljs.core.apply.call(null,cljs.core.assoc,cljs.core.PersistentArrayMap.EMPTY,cljs.core.interleave.call(null,diag_labels,magic_squares.generators.many_diags.call(null,nodes,(diag_count / (2))))));
@@ -68,4 +68,4 @@ magic_squares.generators.total_error = (function magic_squares$generators$total_
 return cljs.core.apply.call(null,cljs.core._PLUS_,cljs.core.vals.call(null,magic_squares.generators.subset_errors.call(null,hypergraph,assignment_vector)));
 });
 
-//# sourceMappingURL=generators.js.map?rel=1496276086569
+//# sourceMappingURL=generators.js.map?rel=1496284133480

@@ -6862,3 +6862,638 @@ notifying browser that file changed:  resources/public/js/compiled/devcards_out/
 [0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.27 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:194  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m190[0m  [36m(is (=[0m
+  [36m191[0m  [36m  (loop [best [(shuffle (range 1 (inc (* 9 9))))][0m
+  [36m192[0m  [36m         counter 1][0m
+  [36m193[0m  [36m    (println (str counter ":" (last best)))[0m
+  [33m194[0m  [1m    (println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [0m   [0m  [33m                                             ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m195[0m  [36m    (if (or[0m
+  [36m196[0m  [36m          (zero? (gen/total-error nine=square (last best)))[0m
+  [36m197[0m  [36m          (> counter 100000))[0m
+  [36m198[0m  [36m      (do (println (last best))[0m
+  [36m199[0m  [36m        99); best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:196  column:41  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m192[0m  [36m     counter 1][0m
+  [36m193[0m  [36m(println (str counter ":" (last best)))[0m
+  [36m194[0m  [36m(println (into [] (map #(gen/total-error nine=square %) best)))[0m
+  [36m195[0m  [36m(if (or[0m
+  [33m196[0m  [1m      (zero? (gen/total-error nine=square (last best)))[0m
+  [0m   [0m  [33m                              ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m197[0m  [36m      (> counter 100000))[0m
+  [36m198[0m  [36m  (do (println (last best))[0m
+  [36m199[0m  [36m    99); best[0m
+  [36m200[0m  [36m  (let [variations (concat[0m
+  [36m201[0m  [36m        best[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:206  column:52  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/nine=square[0m
+
+  [36m202[0m  [36m                (repeatedly 30 #(random-swap (last best)))[0m
+  [36m203[0m  [36m                (repeatedly 5 #(shuffle (last best))))][0m
+  [36m204[0m  [36m            ; (println variations)[0m
+  [36m205[0m  [36m            (recur [(first[0m
+  [33m206[0m  [1m                      (sort-by #(gen/total-error nine=square %) variations))][0m
+  [0m   [0m  [33m                                                 ^--- Use of undeclared Var magic-squares.core/nine=square[0m
+  [36m207[0m  [36m                   (inc counter)))))[0m
+  [36m208[0m  [36m      99[0m
+  [36m209[0m  [36m      ))[0m
+  [36m210[0m  [36m    )[0m
+  [36m211[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.384 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.163 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.57 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.005 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.319 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.419 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.39 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:180  column:23  ----[0m
+
+  [1mWrong number of args (2) passed to magic-squares.generators/semimagic-square[0m
+
+  [36m177[0m  [36m(deftest random[0m
+  [36m178[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [36m179[0m  [36m    (let [assignment (into [] (shuffle (range 1 26)))[0m
+  [33m180[0m  [1m          five-square (gen/semimagic-square 5 10)[0m
+  [0m   [0m  [33m                      ^--- Wrong number of args (2) passed to magic-squares.generators/semimagic-square[0m
+  [36m181[0m  [36m          nine-square (gen/magic-square 9 18)[0m
+  [36m182[0m  [36m          twenty-three (gen/semimagic-square 23)][0m
+  [36m183[0m  [36m      (is (= (vals (gen/subset-errors five-square assignment))[0m
+  [36m184[0m  [36m            99[0m
+  [36m185[0m  [36m            ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:180  column:23  ----[0m
+
+  [1mWrong number of args (2) passed to magic-squares.generators/semimagic-square[0m
+
+  [36m177[0m  [36m(deftest random[0m
+  [36m178[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [36m179[0m  [36m    (let [assignment (into [] (shuffle (range 1 26)))[0m
+  [33m180[0m  [1m          five-square (gen/semimagic-square 5 10)[0m
+  [0m   [0m  [33m                      ^--- Wrong number of args (2) passed to magic-squares.generators/semimagic-square[0m
+  [36m181[0m  [36m          nine-square (gen/magic-square 9 18)[0m
+  [36m182[0m  [36m          twenty-three (gen/semimagic-square 23)][0m
+  [36m183[0m  [36m      (is (= (vals (gen/subset-errors five-square assignment))[0m
+  [36m184[0m  [36m            99[0m
+  [36m185[0m  [36m            ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.169 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.057 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.514 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.019 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.075 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.983 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.057 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.796 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js

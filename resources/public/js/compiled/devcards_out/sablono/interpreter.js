@@ -88,8 +88,8 @@ sablono.interpreter.wrapped_textarea = sablono.interpreter.wrap_form_element.cal
 sablono.interpreter.controlled_input_QMARK_ = (function sablono$interpreter$controlled_input_QMARK_(type,props){
 var and__26432__auto__ = cljs.core.object_QMARK_.call(null,props);
 if(and__26432__auto__){
-var G__33294 = type;
-switch (G__33294) {
+var G__27805 = type;
+switch (G__27805) {
 case "input":
 return (typeof props.checked !== 'undefined') || (typeof props.value !== 'undefined');
 
@@ -116,17 +116,17 @@ return and__26432__auto__;
  */
 sablono.interpreter.element_class = (function sablono$interpreter$element_class(type,props){
 if(sablono.interpreter.controlled_input_QMARK_.call(null,type,props)){
-var G__33298 = type;
-switch (G__33298) {
+var G__27809 = type;
+switch (G__27809) {
 case "input":
-var G__33299 = (function (){var and__26432__auto__ = cljs.core.object_QMARK_.call(null,props);
+var G__27810 = (function (){var and__26432__auto__ = cljs.core.object_QMARK_.call(null,props);
 if(and__26432__auto__){
 return props.type;
 } else {
 return and__26432__auto__;
 }
 })();
-switch (G__33299) {
+switch (G__27810) {
 case "radio":
 return sablono.interpreter.wrapped_checked;
 
@@ -159,14 +159,14 @@ return type;
 });
 sablono.interpreter.create_element = (function sablono$interpreter$create_element(var_args){
 var args__27564__auto__ = [];
-var len__27557__auto___33305 = arguments.length;
-var i__27558__auto___33306 = (0);
+var len__27557__auto___27816 = arguments.length;
+var i__27558__auto___27817 = (0);
 while(true){
-if((i__27558__auto___33306 < len__27557__auto___33305)){
-args__27564__auto__.push((arguments[i__27558__auto___33306]));
+if((i__27558__auto___27817 < len__27557__auto___27816)){
+args__27564__auto__.push((arguments[i__27558__auto___27817]));
 
-var G__33307 = (i__27558__auto___33306 + (1));
-i__27558__auto___33306 = G__33307;
+var G__27818 = (i__27558__auto___27817 + (1));
+i__27558__auto___27817 = G__27818;
 continue;
 } else {
 }
@@ -189,12 +189,12 @@ return cljs.core.apply.call(null,React.createElement,class$,props,children__$1);
 
 sablono.interpreter.create_element.cljs$lang$maxFixedArity = (2);
 
-sablono.interpreter.create_element.cljs$lang$applyTo = (function (seq33302){
-var G__33303 = cljs.core.first.call(null,seq33302);
-var seq33302__$1 = cljs.core.next.call(null,seq33302);
-var G__33304 = cljs.core.first.call(null,seq33302__$1);
-var seq33302__$2 = cljs.core.next.call(null,seq33302__$1);
-return sablono.interpreter.create_element.cljs$core$IFn$_invoke$arity$variadic(G__33303,G__33304,seq33302__$2);
+sablono.interpreter.create_element.cljs$lang$applyTo = (function (seq27813){
+var G__27814 = cljs.core.first.call(null,seq27813);
+var seq27813__$1 = cljs.core.next.call(null,seq27813);
+var G__27815 = cljs.core.first.call(null,seq27813__$1);
+var seq27813__$2 = cljs.core.next.call(null,seq27813__$1);
+return sablono.interpreter.create_element.cljs$core$IFn$_invoke$arity$variadic(G__27814,G__27815,seq27813__$2);
 });
 
 sablono.interpreter.attributes = (function sablono$interpreter$attributes(attrs){
@@ -224,10 +224,10 @@ return cljs.core.into.call(null,cljs.core.PersistentVector.EMPTY,cljs.core.map.c
  * Render an element vector as a HTML element.
  */
 sablono.interpreter.element = (function sablono$interpreter$element(element){
-var vec__33311 = sablono.normalize.element.call(null,element);
-var type = cljs.core.nth.call(null,vec__33311,(0),null);
-var attrs = cljs.core.nth.call(null,vec__33311,(1),null);
-var content = cljs.core.nth.call(null,vec__33311,(2),null);
+var vec__27822 = sablono.normalize.element.call(null,element);
+var type = cljs.core.nth.call(null,vec__27822,(0),null);
+var attrs = cljs.core.nth.call(null,vec__27822,(1),null);
+var content = cljs.core.nth.call(null,vec__27822,(2),null);
 return cljs.core.apply.call(null,sablono.interpreter.create_element,type,sablono.interpreter.attributes.call(null,attrs),sablono.interpreter.interpret_seq.call(null,content));
 });
 /**
@@ -302,4 +302,4 @@ return this$;
 return null;
 }));
 
-//# sourceMappingURL=interpreter.js.map?rel=1496186257895
+//# sourceMappingURL=interpreter.js.map?rel=1496284134307
