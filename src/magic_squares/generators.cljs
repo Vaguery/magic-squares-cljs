@@ -110,3 +110,8 @@
       {}
       sums)
       ))
+
+
+(defn total-error
+  [hypergraph assignment-vector]
+  (apply + (vals (subset-errors hypergraph assignment-vector))))

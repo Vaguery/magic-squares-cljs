@@ -155,8 +155,75 @@
            ))
   ))
 
+(defn tweak-assignment
+  [nums i diff]
+  (update-in nums [i] #(+ % diff))
+  )
 
-  
+(defn random-swap
+  [assignment]
+  (let [[i j] (take 2 (shuffle (range (count assignment))))
+        n1 (nth assignment i)
+        n2 (nth assignment j)]
+    (-> assignment
+      (assoc , i n2)
+      (assoc , j n1))
+  ))
+
+(deftest random
+  (testing "some data on random assignment scores for small squares"
+    (let [assignment (into [] (shuffle (range 1 26)))
+          five-square (gen/magic-square 5 10)
+          thirteen (gen/magic-square 13 26)]
+      (is (= (vals (gen/subset-errors five-square assignment))
+            99
+            ))
+      (is (= (sort
+              (map
+                #(gen/total-error five-square %)
+                (map #(tweak-assignment assignment % 1) (range 0 25))))
+            (gen/total-error five-square assignment)
+            ))
+
+
+      (is (=
+        (loop [best [(shuffle (range 1 (inc (* 13 13))))]
+               counter 1]
+          (println (str counter ":" (last best)))
+          (println (into [] (map #(gen/total-error thirteen %) best)))
+          (if (or
+                (zero? (gen/total-error thirteen (last best)))
+                (> counter 500))
+            (do (println (last best))
+              99); best
+            (let [variations (concat
+                  best
+                  (repeatedly 20 #(random-swap (last best)))
+                  (repeatedly 5 #(shuffle (last best))))]
+              ; (println variations)
+              (recur [(first
+                        (sort-by #(gen/total-error thirteen %) variations))]
+                     (inc counter)))))
+        99
+        ))
+      )
+  ))
+
+
+
+(defcard
+  (str "## Some notes
+
+  First off, there are apparently many `target-sum` values that are non-integer. This seems like will cause troubles with infeasible assignments.
+
+  Then there's the question of what to do to keep assignments with unique values."
+  ))
+
+
+
+
+
+
 
 (defn main []
   ;; conditionally start the app based on whether the #main-app-area

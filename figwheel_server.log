@@ -5756,3 +5756,1109 @@ notifying browser that file changed:  resources/public/js/compiled/devcards_out/
 [0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.185 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:12  ----[0m
+
+  [1mWrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (gen/subset-errors[0m
+  [0m   [0m  [33m           ^--- Wrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (range 1 26))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m    ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:12  ----[0m
+
+  [1mWrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (gen/subset-errors[0m
+  [0m   [0m  [33m           ^--- Wrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (range 1 26))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m    ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:12  ----[0m
+
+  [1mWrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (gen/subset-errors[0m
+  [0m   [0m  [33m           ^--- Wrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (range 1 26))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m    ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:12  ----[0m
+
+  [1mWrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (gen/subset-errors[0m
+  [0m   [0m  [33m           ^--- Wrong number of args (3) passed to magic-squares.generators/subset-errors[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (range 1 26))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m    ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 5.366 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 2.934 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:166  column:4  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m164[0m  [36m        ))[0m
+  [36m165[0m  [36m  ))[0m
+  [33m166[0m  [1m)[0m
+  [0m   [0m  [33m ^--- Unmatched delimiter )[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.688 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.064 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:22  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/values[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (apply + (values (gen/subset-errors[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var magic-squares.core/values[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (shuffle (range 1 26))))))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m  ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:22  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/values[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (apply + (values (gen/subset-errors[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var magic-squares.core/values[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (shuffle (range 1 26))))))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m  ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:22  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/values[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (apply + (values (gen/subset-errors[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var magic-squares.core/values[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (shuffle (range 1 26))))))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m  ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:160  column:22  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/values[0m
+
+  [36m156[0m  [36m  ))[0m
+  [36m157[0m  [36m[0m
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (is (= (apply + (values (gen/subset-errors[0m
+  [0m   [0m  [33m                     ^--- Use of undeclared Var magic-squares.core/values[0m
+  [36m161[0m  [36m            (gen/magic-square 5 2)[0m
+  [36m162[0m  [36m            (into [] (shuffle (range 1 26))))))[0m
+  [36m163[0m  [36m          99[0m
+  [36m164[0m  [36m          ))[0m
+  [36m165[0m  [36m  ))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.186 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.168 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.983 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.078 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.032 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.978 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.902 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.922 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.002 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.465 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.919 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.898 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.108 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.031 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.941 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.079 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 1.754 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:160  column:54  ----[0m
+
+  [1mUnmatched delimiter ][0m
+
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (let [assignment (into [] (shuffle (range 1 26))][0m
+  [0m   [0m  [33m                                                     ^--- Unmatched delimiter ][0m
+  [36m161[0m  [36m    (is (= (vals (gen/subset-errors[0m
+  [36m162[0m  [36m            (gen/magic-square 5 10)[0m
+  [36m163[0m  [36m            assignment)))[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 1.888 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:160  column:54  ----[0m
+
+  [1mUnmatched delimiter ][0m
+
+  [36m158[0m  [36m(deftest random[0m
+  [36m159[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [33m160[0m  [1m    (let [assignment (into [] (shuffle (range 1 26))][0m
+  [0m   [0m  [33m                                                     ^--- Unmatched delimiter ][0m
+  [36m161[0m  [36m      (is (= (vals (gen/subset-errors[0m
+  [36m162[0m  [36m              (gen/magic-square 5 10)[0m
+  [36m163[0m  [36m              assignment)))[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 1.826 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:166  column:5  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m164[0m  [36m          99[0m
+  [36m165[0m  [36m          )))[0m
+  [33m166[0m  [1m))[0m
+  [0m   [0m  [33m  ^--- Unmatched delimiter )[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.085 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.89 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.022 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.167 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.826 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.956 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.837 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.365 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.325 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 1.662 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:163  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 163 and column 1[0m
+
+  [36m161[0m  [36m  )[0m
+  [36m162[0m  [36m[0m
+  [33m163[0m  [1m(deftest random[0m
+  [0m   [0m  [33m^--- EOF while reading, starting at line 163 and column 1[0m
+  [36m164[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [36m165[0m  [36m    (let [assignment (into [] (shuffle (range 1 26)))][0m
+  [36m166[0m  [36m      (is (= (vals (gen/subset-errors[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.159 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.436 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.341 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.213 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.506 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.398 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.361 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.148 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.355 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.482 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.129 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.325 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 5.31 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 4.859 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.281 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.805 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.435 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.558 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.58 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.242 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.078 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.791 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 4.608 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.156 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.583 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.509 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/generators.cljs   line:82  column:29  ----[0m
+
+  [1mUse of undeclared Var magic-squares.generators/le[0m
+
+  [36m79[0m  [36m(defn sums-of-subsets[0m
+  [36m80[0m  [36m  [hypergraph assignment-vector][0m
+  [36m81[0m  [36m  (reduce-kv[0m
+  [33m82[0m  [1m    (fn [scores which items]le[0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var magic-squares.generators/le[0m
+  [36m83[0m  [36m      (assoc scores which[0m
+  [36m84[0m  [36m        (apply + (map assignment-vector (which hypergraph)))[0m
+  [36m85[0m  [36m        ))[0m
+  [36m86[0m  [36m    {}[0m
+  [36m87[0m  [36m    hypergraph[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/generators.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.503 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.357 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.426 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.985 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.309 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 1.965 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.069 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/generators.cljs   line:82  column:29  ----[0m
+
+  [1mUse of undeclared Var magic-squares.generators/le[0m
+
+  [36m79[0m  [36m(defn sums-of-subsets[0m
+  [36m80[0m  [36m  [hypergraph assignment-vector][0m
+  [36m81[0m  [36m  (reduce-kv[0m
+  [33m82[0m  [1m    (fn [scores which items]le[0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var magic-squares.generators/le[0m
+  [36m83[0m  [36m      (assoc scores which[0m
+  [36m84[0m  [36m        (apply + (map assignment-vector (which hypergraph)))[0m
+  [36m85[0m  [36m        ))[0m
+  [36m86[0m  [36m    {}[0m
+  [36m87[0m  [36m    hypergraph[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/generators.cljs  ----[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 0.784 seconds.[0m
+[36m----  Could not Analyze  src/magic_squares/generators.cljs   line:115  column:1  ----[0m
+
+  [1mToo many arguments to def at line 115 /Users/bill/programming/magic-squares/src/magic_squares/generators.cljs[0m
+
+  [33m115[0m  [1m(def total-error[0m
+  [0m   [0m  [33m^--- Too many arguments to def at line 115 /Users/bill/programming/magic-squares/src/magic_squares/generators.cljs[0m
+  [36m116[0m  [36m  [hypergraph assignment-vector][0m
+  [36m117[0m  [36m  (apply + (vals (subset-errors hypergraph assignment-vector))))[0m
+
+[36m----  Analysis Error : Please see src/magic_squares/generators.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/generators.cljs   line:82  column:29  ----[0m
+
+  [1mUse of undeclared Var magic-squares.generators/le[0m
+
+  [36m79[0m  [36m(defn sums-of-subsets[0m
+  [36m80[0m  [36m  [hypergraph assignment-vector][0m
+  [36m81[0m  [36m  (reduce-kv[0m
+  [33m82[0m  [1m    (fn [scores which items]le[0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var magic-squares.generators/le[0m
+  [36m83[0m  [36m      (assoc scores which[0m
+  [36m84[0m  [36m        (apply + (map assignment-vector (which hypergraph)))[0m
+  [36m85[0m  [36m        ))[0m
+  [36m86[0m  [36m    {}[0m
+  [36m87[0m  [36m    hypergraph[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/generators.cljs  ----[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 0.608 seconds.[0m
+[36m----  Could not Analyze  src/magic_squares/generators.cljs   line:115  column:1  ----[0m
+
+  [1mToo many arguments to def at line 115 /Users/bill/programming/magic-squares/src/magic_squares/generators.cljs[0m
+
+  [33m115[0m  [1m(def total-error[0m
+  [0m   [0m  [33m^--- Too many arguments to def at line 115 /Users/bill/programming/magic-squares/src/magic_squares/generators.cljs[0m
+  [36m116[0m  [36m  [hypergraph assignment-vector][0m
+  [36m117[0m  [36m  (apply + (vals (subset-errors hypergraph assignment-vector))))[0m
+
+[36m----  Analysis Error : Please see src/magic_squares/generators.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/generators.cljs   line:82  column:29  ----[0m
+
+  [1mUse of undeclared Var magic-squares.generators/le[0m
+
+  [36m79[0m  [36m(defn sums-of-subsets[0m
+  [36m80[0m  [36m  [hypergraph assignment-vector][0m
+  [36m81[0m  [36m  (reduce-kv[0m
+  [33m82[0m  [1m    (fn [scores which items]le[0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var magic-squares.generators/le[0m
+  [36m83[0m  [36m      (assoc scores which[0m
+  [36m84[0m  [36m        (apply + (map assignment-vector (which hypergraph)))[0m
+  [36m85[0m  [36m        ))[0m
+  [36m86[0m  [36m    {}[0m
+  [36m87[0m  [36m    hypergraph[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/generators.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.52 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.972 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:173  column:19  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m169[0m  [36m          99[0m
+  [36m170[0m  [36m          ))[0m
+  [36m171[0m  [36m    (is (= (sort[0m
+  [36m172[0m  [36m            (map[0m
+  [33m173[0m  [1m              #(total-error (gen/magic-square 5 10) %)[0m
+  [0m   [0m  [33m                ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m174[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))))[0m
+  [36m175[0m  [36m          99[0m
+  [36m176[0m  [36m          ))[0m
+  [36m177[0m  [36m)))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.764 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.252 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.703 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.273 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 6.022 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.557 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/generators.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.214 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 3.015 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:180  column:3  ----[0m
+
+  [1mEOF while reading, starting at line 180 and column 3[0m
+
+  [36m179[0m  [36m(defcard[0m
+  [33m180[0m  [1m  (str "## Some notes[0m
+  [0m   [0m  [33m  ^--- EOF while reading, starting at line 180 and column 3[0m
+  [36m181[0m  [36m[0m
+  [36m182[0m  [36m  First off, there are apparently many `target-sum` values that are non-integer. This seems like will cause troubles with infeasible assignments.[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.379 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 2.24 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:182  column:6  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m180[0m  [36m      ;   (let [varia][0m
+  [36m181[0m  [36m      )[0m
+  [33m182[0m  [1m  )))[0m
+  [0m   [0m  [33m     ^--- Unmatched delimiter )[0m
+  [36m183[0m  [36m[0m
+  [36m184[0m  [36m[0m
+  [36m185[0m  [36m(defcard[0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.262 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:180  column:21  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m176[0m  [36m(loop [best assignment[0m
+  [36m177[0m  [36m       counter 1][0m
+  [36m178[0m  [36m  (println (str counter ":" best))[0m
+  [36m179[0m  [36m  (println (into [] (vals (gen/subset-errors five-square assignment)))[0m
+  [33m180[0m  [1m  (if (zero? (total-error five-square best))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m181[0m  [36m    best[0m
+  [36m182[0m  [36m    (let [variations[0m
+  [36m183[0m  [36m          (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [36m184[0m  [36m      (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [36m185[0m  [36m             (inc counter))))))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:184  column:38  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m180[0m  [36m      (if (zero? (total-error five-square best))[0m
+  [36m181[0m  [36m        best[0m
+  [36m182[0m  [36m        (let [variations[0m
+  [36m183[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [33m184[0m  [1m          (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [0m   [0m  [33m                                   ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m185[0m  [36m                 (inc counter))))))[0m
+  [36m186[0m  [36m    )[0m
+  [36m187[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 1.911 seconds.[0m
+[36m----  Could not Analyze  src/magic_squares/core.cljs   line:184  column:13  ----[0m
+
+  [1mCan't recur here at line 184 src/magic_squares/core.cljs[0m
+
+  [36m182[0m  [36m        (let [variations[0m
+  [36m183[0m  [36m              (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [33m184[0m  [1m          (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [0m   [0m  [33m          ^--- Can't recur here at line 184 src/magic_squares/core.cljs[0m
+  [36m185[0m  [36m                 (inc counter))))))[0m
+  [36m186[0m  [36m    )[0m
+  [36m187[0m  [36m))[0m
+
+[36m----  Analysis Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.996 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:183  column:23  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m179[0m  [36m(loop [best assignment[0m
+  [36m180[0m  [36m       counter 1][0m
+  [36m181[0m  [36m  (println (str counter ":" best))[0m
+  [36m182[0m  [36m  (println (into [] (vals (gen/subset-errors five-square assignment))))[0m
+  [33m183[0m  [1m  (if (zero? (total-error five-square best))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m184[0m  [36m    best[0m
+  [36m185[0m  [36m    (let [variations[0m
+  [36m186[0m  [36m          (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [36m187[0m  [36m      (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [36m188[0m  [36m             (inc counter)))))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:187  column:40  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m183[0m  [36m        (if (zero? (total-error five-square best))[0m
+  [36m184[0m  [36m          best[0m
+  [36m185[0m  [36m          (let [variations[0m
+  [36m186[0m  [36m                (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [33m187[0m  [1m            (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [0m   [0m  [33m                                     ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m188[0m  [36m                   (inc counter)))))[0m
+  [36m189[0m  [36m      99[0m
+  [36m190[0m  [36m      ))[0m
+  [36m191[0m  [36m    )[0m
+  [36m192[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:183  column:23  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m179[0m  [36m(loop [best assignment[0m
+  [36m180[0m  [36m       counter 1][0m
+  [36m181[0m  [36m  (println (str counter ":" best))[0m
+  [36m182[0m  [36m  (println (into [] (vals (gen/subset-errors five-square assignment))))[0m
+  [33m183[0m  [1m  (if (zero? (total-error five-square best))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m184[0m  [36m    best[0m
+  [36m185[0m  [36m    (let [variations[0m
+  [36m186[0m  [36m          (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [36m187[0m  [36m      (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [36m188[0m  [36m             (inc counter)))))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:187  column:40  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m183[0m  [36m        (if (zero? (total-error five-square best))[0m
+  [36m184[0m  [36m          best[0m
+  [36m185[0m  [36m          (let [variations[0m
+  [36m186[0m  [36m                (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [33m187[0m  [1m            (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [0m   [0m  [33m                                     ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m188[0m  [36m                   (inc counter)))))[0m
+  [36m189[0m  [36m      99[0m
+  [36m190[0m  [36m      ))[0m
+  [36m191[0m  [36m    )[0m
+  [36m192[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:183  column:23  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m179[0m  [36m(loop [best assignment[0m
+  [36m180[0m  [36m       counter 1][0m
+  [36m181[0m  [36m  (println (str counter ":" best))[0m
+  [36m182[0m  [36m  (println (into [] (vals (gen/subset-errors five-square assignment))))[0m
+  [33m183[0m  [1m  (if (zero? (total-error five-square best))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m184[0m  [36m    best[0m
+  [36m185[0m  [36m    (let [variations[0m
+  [36m186[0m  [36m          (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [36m187[0m  [36m      (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [36m188[0m  [36m             (inc counter)))))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:187  column:40  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m183[0m  [36m        (if (zero? (total-error five-square best))[0m
+  [36m184[0m  [36m          best[0m
+  [36m185[0m  [36m          (let [variations[0m
+  [36m186[0m  [36m                (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [33m187[0m  [1m            (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [0m   [0m  [33m                                     ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m188[0m  [36m                   (inc counter)))))[0m
+  [36m189[0m  [36m      99[0m
+  [36m190[0m  [36m      ))[0m
+  [36m191[0m  [36m    )[0m
+  [36m192[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:183  column:23  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m179[0m  [36m(loop [best assignment[0m
+  [36m180[0m  [36m       counter 1][0m
+  [36m181[0m  [36m  (println (str counter ":" best))[0m
+  [36m182[0m  [36m  (println (into [] (vals (gen/subset-errors five-square assignment))))[0m
+  [33m183[0m  [1m  (if (zero? (total-error five-square best))[0m
+  [0m   [0m  [33m              ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m184[0m  [36m    best[0m
+  [36m185[0m  [36m    (let [variations[0m
+  [36m186[0m  [36m          (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [36m187[0m  [36m      (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [36m188[0m  [36m             (inc counter)))))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:187  column:40  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/total-error[0m
+
+  [36m183[0m  [36m        (if (zero? (total-error five-square best))[0m
+  [36m184[0m  [36m          best[0m
+  [36m185[0m  [36m          (let [variations[0m
+  [36m186[0m  [36m                (map #(tweak-assignment assignment % 1) (range 0 25))][0m
+  [33m187[0m  [1m            (recur (first (sort-by #(total-error five-square %) variations))[0m
+  [0m   [0m  [33m                                     ^--- Use of undeclared Var magic-squares.core/total-error[0m
+  [36m188[0m  [36m                   (inc counter)))))[0m
+  [36m189[0m  [36m      99[0m
+  [36m190[0m  [36m      ))[0m
+  [36m191[0m  [36m    )[0m
+  [36m192[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.253 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.497 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.843 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.722 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.469 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.659 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.543 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.617 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.334 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.565 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 8.395 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 5.788 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.273 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.894 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:193  column:63  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/%[0m
+
+  [36m189[0m  [36m(is (=[0m
+  [36m190[0m  [36m  (loop [best [assignment][0m
+  [36m191[0m  [36m         counter 1][0m
+  [36m192[0m  [36m    (println (str counter ":" best))[0m
+  [33m193[0m  [1m    (println (into [] (map (gen/total-error five-square %) best)))[0m
+  [0m   [0m  [33m                                                        ^--- Use of undeclared Var magic-squares.core/%[0m
+  [36m194[0m  [36m    (if (or[0m
+  [36m195[0m  [36m          (zero? (gen/total-error five-square (last best)))[0m
+  [36m196[0m  [36m          (> counter 10))[0m
+  [36m197[0m  [36m      best[0m
+  [36m198[0m  [36m      (let [variations (repeatedly 10 #(random-swap (last best)))][0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:193  column:63  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/%[0m
+
+  [36m189[0m  [36m(is (=[0m
+  [36m190[0m  [36m  (loop [best [assignment][0m
+  [36m191[0m  [36m         counter 1][0m
+  [36m192[0m  [36m    (println (str counter ":" best))[0m
+  [33m193[0m  [1m    (println (into [] (map (gen/total-error five-square %) best)))[0m
+  [0m   [0m  [33m                                                        ^--- Use of undeclared Var magic-squares.core/%[0m
+  [36m194[0m  [36m    (if (or[0m
+  [36m195[0m  [36m          (zero? (gen/total-error five-square (last best)))[0m
+  [36m196[0m  [36m          (> counter 10))[0m
+  [36m197[0m  [36m      best[0m
+  [36m198[0m  [36m      (let [variations (repeatedly 10 #(random-swap (last best)))][0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:193  column:63  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/%[0m
+
+  [36m189[0m  [36m(is (=[0m
+  [36m190[0m  [36m  (loop [best [assignment][0m
+  [36m191[0m  [36m         counter 1][0m
+  [36m192[0m  [36m    (println (str counter ":" best))[0m
+  [33m193[0m  [1m    (println (into [] (map (gen/total-error five-square %) best)))[0m
+  [0m   [0m  [33m                                                        ^--- Use of undeclared Var magic-squares.core/%[0m
+  [36m194[0m  [36m    (if (or[0m
+  [36m195[0m  [36m          (zero? (gen/total-error five-square (last best)))[0m
+  [36m196[0m  [36m          (> counter 10))[0m
+  [36m197[0m  [36m      best[0m
+  [36m198[0m  [36m      (let [variations (repeatedly 10 #(random-swap (last best)))][0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/magic_squares/core.cljs   line:193  column:63  ----[0m
+
+  [1mUse of undeclared Var magic-squares.core/%[0m
+
+  [36m189[0m  [36m(is (=[0m
+  [36m190[0m  [36m  (loop [best [assignment][0m
+  [36m191[0m  [36m         counter 1][0m
+  [36m192[0m  [36m    (println (str counter ":" best))[0m
+  [33m193[0m  [1m    (println (into [] (map (gen/total-error five-square %) best)))[0m
+  [0m   [0m  [33m                                                        ^--- Use of undeclared Var magic-squares.core/%[0m
+  [36m194[0m  [36m    (if (or[0m
+  [36m195[0m  [36m          (zero? (gen/total-error five-square (last best)))[0m
+  [36m196[0m  [36m          (> counter 10))[0m
+  [36m197[0m  [36m      best[0m
+  [36m198[0m  [36m      (let [variations (repeatedly 10 #(random-swap (last best)))][0m
+
+[36m----  Compiler Warning : Please see src/magic_squares/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.97 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.593 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.806 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.962 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 2.252 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.025 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 7.955 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.809 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 6.784 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 4.397 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.672 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 10.766 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 18.697 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/magic_squares_devcards.js" in 5.132 seconds.[0m
+[36m----  Could not Read  src/magic_squares/core.cljs   line:173  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 173 and column 1[0m
+
+  [36m171[0m  [36m  ))[0m
+  [36m172[0m  [36m[0m
+  [33m173[0m  [1m(deftest random[0m
+  [0m   [0m  [33m^--- EOF while reading, starting at line 173 and column 1[0m
+  [36m174[0m  [36m  (testing "some data on random assignment scores for small squares"[0m
+  [36m175[0m  [36m    (let [assignment (into [] (shuffle (range 1 26)))[0m
+  [36m176[0m  [36m          five-square (gen/magic-square 5 10)][0m
+
+[36m----  Reader Error : Please see src/magic_squares/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.429 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 5.023 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.713 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
+[0mCompiling "resources/public/js/compiled/magic_squares_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/magic_squares_devcards.js" in 3.27 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/magic_squares/core.js
